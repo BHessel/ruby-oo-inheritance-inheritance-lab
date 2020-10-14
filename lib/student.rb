@@ -9,7 +9,6 @@ attr_reader :knowledge
     end
 
     def learn(knowledge)
-        #binding.pry
         @knowledge << knowledge
     end
 
